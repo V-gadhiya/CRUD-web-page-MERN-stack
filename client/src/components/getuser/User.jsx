@@ -49,7 +49,9 @@ const User = () => {
                 <td className="border-solid border-2 border-black">
                   {user.fname} {user.lname}
                 </td>
-                <td className="border-solid border-2 border-black">{user.email}</td>
+                <td className="border-solid border-2 border-black">
+                  {user.email}
+                </td>
                 <td className="border-solid border-2 border-black">
                   <button
                     onClick={() => deleteUser(user._id)}
